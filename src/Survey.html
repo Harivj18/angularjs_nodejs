@@ -1,25 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Covid Survey</title>
 </head>
-<body>
-        <form style="position: absolute;">
-            <div>
-                <label name="lblusername">Username :</label>
-                <input type="text" name="username" placeholder="Enter your name here" autofocus autocomplete="off">
-            </div>
 
-            <div>
-                <label name="lbl-location">Location :</label>
-                <input type="text" name="location" placeholder="Enter your location here">
-            </div>
-            <div>
-                <input type="submit" value="Submit">
-            </div>
-        </form>
+<body >
+    <div>
+        <center>
+            <h1>Covid-19 Survey Form</h1>
+        </center>
+    </div>
+
+    <div>
+        <center>
+            <form>
+                <fieldset style="background-color: antiquewhite;">
+                    <div>
+                        <label name="lblusername">Name:</label>
+                        <input type="text" name="lblname" placeholder="Enter your name" autofocus autocomplete="off">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label name="lbl-location">Email :</label>
+                        <input type="email" name="email" placeholder="Email Id" autocomplete="off">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label name="lbl-location">Phone :</label>
+                        <input type="number" name="Phone" placeholder="Phone number" autocomplete="off">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label name="lbl-gender">Gender:</label>
+                        <input type="radio" name="gender" value="Male"> Male
+                        <input type="radio" name="gender" value="Female"> Female
+                        <input type="radio" name="gender" value="Others"> Others
+                    </div>
+                    <br>
+
+                    <div>
+                        <label name="lbl-location">Age :</label>
+                        <input type="number" name="age" placeholder="Your Age" autocomplete="off">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label name="lbl-location">Location :</label>
+                        <input type="text" name="location" placeholder="Enter your location" autocomplete="off">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label name="lbl-location">Do you have any symptoms :</label>
+                        <input type="radio" name="symptoms" value="yes">Yes
+                        <input type="radio" name="symptoms" value="no">No
+                    </div>
+                    <br>
+
+                    <div>
+                        <label name="lbl-location">Do you tested Covid Positive:</label>
+                        <input type="radio" name="result" value="yes">Yes
+                        <input type="radio" name="result" value="no">No
+                    </div>
+                    <br>
+
+                    <div>
+                        <label name="lbl-location">If yes to have symptoms,write down:</label>
+                    </div>
+                    <br>
+                    <textarea name="comment" cols="30" rows="5"></textarea>
+                    <!-- <input type="text" name="comment" placeholder="Enter symptoms" autocomplete="off"> -->
+
+                    <br>
+
+                    <div>
+                        <input type="submit" value="Submit" >
+                    </div>
+                </fieldset>
+            </form>
+        </center>
+    </div>
+
 </body>
+
 </html>
