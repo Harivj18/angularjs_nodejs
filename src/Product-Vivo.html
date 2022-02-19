@@ -77,6 +77,23 @@ font-family: 'Roboto Serif', sans-serif;
     font-size: 18px;
    
 }
+.new-launch
+{
+    width: 88%;
+    height: 70%;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 295%;
+    left: 5%;
+}
+.content .new
+{
+    position: absolute;
+    top:285%;
+    left: 45%;
+    font-size: 30px;   
+}
 header
 {
     display: flex;
@@ -127,17 +144,48 @@ header nav ul li a:hover{
     top: 98%;
 
 }
+@media screen and (max-width:1200px){
+    .content{
+        width: 100%;
+        text-align: center;
+    }
+    .vivo-india{
+        width: 100%;
+        position: absolute;
+        bottom: -5%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        width: 100%;
+        position: absolute;
+        bottom: -5%;
+        display: flex;
+        justify-content: center;
+    }
+    .image{
+        width: 100%;
+        position: absolute;
+        bottom: -5%;
+        display: flex;
+        justify-content: center;
+    }
+}
 
 .footer{
     position: absolute;
     width: 100%;
-    top:295%;
+    top:375%;
     font-size: 18px;
     background-color: rgb(75, 164, 236);
     color: white;
     font-family: 'Redressed', cursive;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Serif', sans-serif;
+}
+.footer .hari
+{
+   float: right;
 }
 </style>
 </head>
@@ -185,9 +233,13 @@ header nav ul li a:hover{
             China (Dongguan), India (Noida), Bangladesh (Dhaka) and Indonesia (Tangerang).</p>
         <br>
         <p class="p3">With an annual production capacity of nearly 200 million units smartphones.</p>
+        <h1 class="new">New Launch</h1>
     </div>
-    <div class="footer">
-        Copyright © 2022 vivo Mobile Communication Co.,Ltd.All rights reserved. | Privacy Policy . Designed by @Hari
+    <div class="banner3">
+        <img src="../images/y72.jpg" alt="vivo" class="new-launch">
+    </div>
+     <div class="footer"> 
+        Copyright © 2022 vivo Mobile Communication Co.,Ltd.All rights reserved. | Privacy Policy .<span class="hari">Designed by @Hari</span> 
 
     </div>
 </body>
