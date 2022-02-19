@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Serif:ital,wght@1,100&family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Serif:ital,wght@0,400;1,100;1,500&family=Roboto:ital,wght@1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.content h1{
+    position: absolute;
+    top:200%;
+    left: 50%;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: aquamarine; */
+}
+
+.content h3
+{
+    position: absolute;
+    top:210%;
+    font-family: 'Roboto', sans-serif;
+    left: 5%;
+}
+.content p{
+    position: absolute;
+    top:220%;
+    left: 5%;
+    font-size: 20px;
+    font-family: 'Redressed', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Serif', sans-serif;
+}
+.content .p1
+{
+    position: absolute;
+    top:235%;
+    left: 5%;
+    font-size: 20px;
+    font-family: 'Redressed', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', sans-serif;  
+}
+.content .global{
+    position: absolute;
+    top:255%;
+    left: 40%;
+    font-size: 20px;
+}
+.content .p2
+{
+    position: absolute;
+    top:265%;
+    left: 5%;
+    font-size: 20px;
+    font-family: 'Redressed', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Serif', sans-serif;  
+}
+.content .p3
+{
+    position: absolute;
+    top:280%;
+    left: 5%;
+    font-size: 20px;
+    font-family: 'Redressed', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', sans-serif; 
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.logo
+{
+    width: 40%;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 15px 12px;
+    font-size: 18px;
+
+}
+header div .material-icons
+{
+    display:flex;
+    margin: 15px 12px ;
+}
+header div a{
+    text-decoration: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(33, 36, 35);
+}
+header nav ul li a:hover{
+    color: rgb(51, 51, 245);
+}
+.image
+{
+    width: 88%;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 5%;
+}
+.vivo-india
+{
+    width: 88%;
+    position: absolute;
+    left: 5%;
+    top: 98%;
+
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    top:295%;
+    font-size: 18px;
+    background-color: rgb(75, 164, 236);
+    color: white;
+    font-family: 'Redressed', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', sans-serif;
+    align-items: center;
+}
