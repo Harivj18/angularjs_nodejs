@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivo Home| India</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <link rel="stylesheet" href="..\styles\Vivo_India.css"> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Redressed&family=Roboto+Serif:ital,wght@0,400;1,100;1,500&family=Roboto:ital,wght@1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:ital,wght@1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Serif:ital,wght@1,100&family=Roboto:ital,wght@1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Serif:ital,wght@0,400;1,100;1,500&family=Roboto:ital,wght@1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+
+        .spec h1 {
+            position: absolute;
+            top: 190%;
+            left: 5%;
+            font-family: 'Roboto', sans-serif;
+            /* background-color: aquamarine; */
+        }
+        .spec .btn {
+            position: absolute;
+            top: 190%;
+            left: 25%;
+            font-family: 'Roboto', sans-serif;
+            cursor: pointer;
+            /* background-color: aquamarine; */
+        }
+
+        .spec h2 {
+            position: absolute;
+            top: 200%;
+            font-family: 'Roboto', sans-serif;
+            left: 5%;
+        }
+
+        .spec ul .li1 {
+            position: absolute;
+            top: 210%;
+            left: 5%;
+            font-size: 20px;
+            font-family: 'Redressed', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', sans-serif;
+        }
+
+        .spec ul .li2 {
+            position: absolute;
+            top: 215%;
+            left: 5%;
+            font-size: 20px;
+            font-family: 'Redressed', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', sans-serif;
+        }
+
+        .spec ul .li3 {
+            position: absolute;
+            top: 220%;
+            left: 5%;
+            font-size: 20px;
+            font-family: 'Redressed', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', sans-serif;
+        }
+
+        .spec ul .li4 {
+            position: absolute;
+            top: 225%;
+            left: 5%;
+            font-size: 20px;
+            font-family: 'Redressed', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', sans-serif;
+        }
+
+        .spec ul .li5 {
+            position: absolute;
+            top: 230%;
+            left: 5%;
+            font-size: 20px;
+            font-family: 'Redressed', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', sans-serif;
+        }
+
+        .spec ul .li6 {
+            position: absolute;
+            top: 235%;
+            left: 5%;
+            font-size: 20px;
+            font-family: 'Redressed', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', sans-serif;
+        }
+
+        .spec ul .li7 {
+            position: absolute;
+            top: 240%;
+            left: 5%;
+            font-size: 20px;
+            font-family: 'Redressed', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', sans-serif;
+        }
+
+        .spec .detail .unbox {
+            width: 40%;
+            height: 55%;
+            position: absolute;
+            top: 190%;
+            left: 50%;
+            border-radius: 15px;
+
+        }
+
+        .cam h1 {
+            position: absolute;
+            top: 255%;
+            left: 5%;
+            font-family: 'Redressed', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', sans-serif;
+        }
+        .cam h2 {
+            position: absolute;
+            top: 265%;
+            left: 5%;
+            font-family: 'Redressed', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', sans-serif;
+        }
+
+        .cam img
+        {
+            position: absolute;
+            top: 275%;
+            width: 80%;
+            height: 80%;
+            left: 11%;
+            border-radius: 15px;
+        }
+
+        .desc h1 {
+            position: absolute;
+            top: 360%;
+            left: 5%;
+            font-family: 'Redressed', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', sans-serif;
+        }
+
+        .desc p {
+            position: absolute;
+            top: 370%;
+            left: 5%;
+            font-family: 'Nunito Sans', sans-serif;
+font-family: 'Redressed', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Serif', sans-serif;
+
+        }
+        .desc .variant
+        {
+            position: absolute;
+            top: 385%;
+            left: 5%;
+        }
+        .desc h3
+        {
+            position: absolute;
+            top: 395%;
+            left: 20%;
+            font-family: 'Redressed', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', sans-serif;
+
+        }
+        .desc .pearl
+        {
+            position: absolute;
+            top: 390%;
+            left: 70%;
+            font-family: 'Redressed', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', sans-serif;
+        }
+        .desc .sunset
+        {
+            position: absolute;
+            top: 400%;
+            left: 5%;
+            width: 40%;
+            height: 80%;
+        }
+        .desc .dark
+        {
+            position: absolute;
+            top: 395%;
+            left: 50%;
+            width: 40%;
+            height: 80%;
+        }
+       
+        .btn
+        {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+       /* .button
+       {
+        top: 490%;
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+           
+       } */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .logo {
+            width: 40%;
+        }
+
+        header nav ul li {
+            display: inline-block;
+            margin: 15px 12px;
+            font-size: 18px;
+
+        }
+
+        header div .material-icons {
+            display: flex;
+            margin: 15px 12px;
+        }
+
+        header div a {
+            text-decoration: none;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: rgb(33, 36, 35);
+        }
+
+        header nav ul li a:hover {
+            color: rgb(51, 51, 245);
+        }
+
+        .image {
+            width: 88%;
+            border-radius: 25px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+            position: absolute;
+            left: 5%;
+        }
+
+        .vivo-india {
+            width: 88%;
+            height: 80%;
+            border-radius: 25px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+            position: absolute;
+            left: 5%;
+            top: 98%;
+
+        }
+
+
+        .footer {
+            position: absolute;
+            width: 100%;
+            top: 495%;
+            font-size: 18px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-family: 'Redressed', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', sans-serif;
+        }
+
+        .footer .hari {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="../images/vivo-black.png" alt="vivo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../src/Vivo-Products.html">Home</a></li>
+                <li><a href="../src/e-store.html">E-store</a></li>
+                <li><a href="#retail">Retail Stores</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="#funtouch os">FunTouch Os</a></li>
+                <li><a href="../src/Aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="#userid"><span class="material-icons"> perm_identity </span></a>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="../images/f1.jpg" alt="vivo" class="image">
+    </div>
+    <div class="banner2">
+        <img src="../images/Vivo-V21e.jpg" alt="vivo" class="vivo-india">
+    </div>
+    <div class="spec">
+        <h1>Vivo V21 e </h1>
+        <button class="btn">Book Now</button>
+
+        <h2>Specifications</h2>
+        <ul>
+            <li class="li1">8 GB RAM | 128 GB ROM | Expandable Upto 1 TB</li>
+            <li class="li2">16.36 cm (6.44 inch) Full HD+ Display</li>
+            <li class="li3">64MP + 8MP | 32MP Front Camera</li>
+            <li class="li4">4000 mAh Battery</li>
+            <li class="li5">MediaTek Dimensity 700 Processor</li>
+            <li class="li6">44W Flast Charge</li>
+            <li class="li7">AMOLED Display</li>
+        </ul>
+        <div class="detail">
+            <img src="../images/unbox.jpg" alt="v21e" class="unbox">
+        </div>
+    </div>
+    
+    <div class="cam">
+        <h1>Camera</h1>
+        <h2>64MP + 8MP | 32MP Front Camera</h2>
+        <img src="../images/v21.jpeg" alt="cam">
+    </div>
+
+    <div class="desc">
+        <h1>Description</h1>
+        <p>
+            The Vivo V21E smartphone is sleek, powerful, and enriched with multiple camera features to offer you a stylish, smooth, and exciting mobile computing experience. This smartphone comes with a 32 MP Super Night Selfie, 64 MP Night Camera, and Double Exposure to click lovely photos even in low-light conditions.
+             Also, it comes with Ultra-fast 5G Dual SIM Dual Standby for high-speed internet connectivity.</p>
+            <h1 class="variant">Color Variant</h1> 
+            <h3>Sunset Jazz</h3>
+            <h3 class="pearl">Dark Pearl</h3>
+            <img src="../images/sun.png" alt="sunset" class="sunset">
+            <img src="../images/dark.png" alt="dark" class="dark">
+        <!-- <button class="button">Book Now</button> -->
+
+
+    </div>
+
+    <div class="footer">
+        Copyright © 2022 vivo Mobile Communication Co.,Ltd.All rights reserved. | Privacy Policy .<span
+            class="hari">Designed by @Hari</span>
+
+    </div>
+</body>
+
+</html>
