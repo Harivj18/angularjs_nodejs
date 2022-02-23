@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Outfit:wght@400;800&family=Redressed&family=Roboto+Serif:ital,wght@0,400;1,100;1,500&family=Roboto:ital,wght@1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.container{
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.qrcard{
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px;
+    border-radius: 18px;
+    text-align: center;
+    margin: 0 1em;
+}
+
+.qrcard img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.content{
+    padding: 22px 10px;
+}
+
+.content h2{
+    color:  hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+}
+
+.content p{
+    color: hsl(220, 15%, 55%);
+}
