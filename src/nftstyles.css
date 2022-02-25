@@ -46,13 +46,13 @@ body{
 p{
     color: hsl(215, 51%, 70%);
 }
-.flex{
+.contents{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 25px 0;
 }
-.eth,.days{
+.eth,.remainder{
     display: flex;
     align-items: center;
 }
@@ -61,7 +61,7 @@ p{
     font-weight: 600;
     padding-left: 7px;
 }
-.days p{
+.remainder p{
     padding-left: 7px;
 }
 hr{
@@ -83,8 +83,6 @@ hr{
     color: #FFF;
     font-size: 16px;
 }
-.author p a.name:hover{
-    color: hsl(178, 100%, 50%);
-}
+
 
 
