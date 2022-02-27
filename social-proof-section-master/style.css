@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&family=Nunito+Sans:wght@300&family=Outfit:wght@300;400;600&family=Spartan:wght@400;500;700&display=swap');
+
+:root{
+    --spartan:'Spartan', sans-serif;
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayis-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+
+}
+
+body{
+    font-family: var(--spartan);
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 90%;
+    position: relative;
+    margin: 2.5rem 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .msg h1{
+    color: var(--Very-Dark-Magenta);
+    width: 35rem;
+    font-weight: 700;
+    font-size: 50px;
+}
+.ratings
+{
+    /* width: 40%; */
+    display: flex;
+     flex-direction: column;
+    gap: 1.2rem;
+}
+.reviews img{
+    width: 1vw;
+    height: 4vh;
+}
+.msg p{
+    color: var(--Dark-Grayish-Magenta);
+    width: 35rem;
+    line-height: 1.5rem;
+    font-size: 18px;
+}
+.reviews {
+    background-color: var(--Light-Grayis-Magenta);
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: .2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+}
+.rate{
+    color: var(--Very-Dark-Magenta);
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: .5rem;
+    margin-left: 2rem;
+}
+
+.card{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.card .user{
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 10px;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.card .logo img{
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    padding-top: 1rem;
+}
+
+.card .logo div{
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+.card .comments{
+    color: var(--White);
+}
+
+.logo h3:last-child{
+    color: var(--Soft-Pink);
+}
+.logo h3:first-child{
+    color: var(--White);
+}
+.comments{
+    line-height: 22px;
+    font-size: 15px;
+}
