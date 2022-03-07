@@ -4,6 +4,7 @@
 }
 body{
     background-color: hsl(217, 54%, 11%);
+   
 }
 div h1{
    display: flex;
@@ -12,7 +13,7 @@ div h1{
    color: hsl(0, 0%, 100%);
 }
 .content-table{
-    border-collapse: collapse;
+    border-collapse: collapse  ;
     margin: 25px 0;
     font-size: 1em;
     min-width: 400px;
@@ -39,16 +40,16 @@ div h1{
 
 .content-table tbody a{
     text-decoration: none;
-    border: 3px  rgb(131, 233, 72);;
-    padding: .5rem 1rem;
-    background-color:  hsl(215, 51%, 70%);
+    /* border: 3px  rgb(131, 233, 72);; */
+    /* padding: .5rem 1rem; */
+    /* background-color:  hsl(215, 51%, 70%); */
     border-radius: 5px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display: inline-block;
 }
 
 .content-table a:hover{
-    color: rgb(8, 20, 1);
+    color: rgb(81, 164, 231);
 }
 
 .content-table tbody tr:nth-of-type(even){
