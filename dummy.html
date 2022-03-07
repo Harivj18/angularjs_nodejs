@@ -4,164 +4,243 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
     <title>Index</title>
     <style>
-        * {
-          box-sizing: border-box;
-        }
-    
-        .column {
-          float: left;
-          width: 20%;
-          padding: 15px;
-        }
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      header{
+        width: 100%;
+        height: 65px;
+        background-color: hsl(217, 54%, 11%);
+      }
+      h2
+      {
+        position: absolute;
+        padding: 3px;
+        float: left;
+        margin-left: 2%;
+        margin-top: 10px;
+        color:  hsl(0, 0%, 100%);
+      }
+      ul{
+        width: auto;
+        float: right;
+        margin-top: 8px;
+      }
+      li{
+        display: inline-block;
+        padding: 15px 30px;
+      }
+      a{
+        text-align: center;
+        text-decoration: none;
+        color:  hsl(0, 0%, 100%);
 
-    body{
-  height: 100%;
-  background-image: url('images/1133130.jpg');
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-div.transbox {
-  /* margin-left: 20%;
-  margin-right: 20%;
-  margin-top:02%; */
-  background-color:lightgrey;
-  border: 1px solid black;
-  opacity: 0.6;
-}
-
-div.transbox p {
-  font-weight:bolder;
-  margin: 0;
-  color: #000000;
-}
-
-a:visited {
-  color: blue;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-</style>
+      }
+    </style>
 </head>
 <body>
+  <header>
+    <h2>JS Training Batch</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div>
+        <h1>Menu - HTML,CSS & JS Pages</h1>
+    </div>
+    <table class="content-table">
+        <thead>
+           <tr>
+               <th>S.No</th>
+               <th>HTML Pages</th>
+               <th>HTML & CSS Challenges</th>
+               <th>JS Challenges</th>
+           </tr>
+        </thead>
+
+        <tbody>
+            <tr id="1">
+                <td>1</td>
+                <td><a href="./src/page_A.html">Page_A</a></td>
+                <td><a href="./src/Vivo-Products.html">Product Landing Page</a></td>
+                <td><a href="https://js-basic-lesson.vercel.app/article-preview-component-master/index.html">Article Preview Component</a></td>
+            </tr>
+            <tr id="2">
+                <td>2</td>
+                <td><a href="./src/page_B.html">Page_B</a></td>
+                <td><a href="./src/index.html">QR Code</a></td>
+                <td><a href="https://js-basic-lesson.vercel.app/article-preview-component-master/index.html">FAQ Accordion Card</a></td>
+            </tr>
+             <tr id="3">
+                <td>3</td>
+                <td><a href="./src/page_C.html">Page_C</a></td>
+                <td><a href="./src/order.html">Order Summary</a></td>
+                <td>-</td>
+                <!-- <td><a href="../../js-basic-lesson/base-apparel-coming-soon-master/index.html">Base Apparel Coming Soon</a></td> -->
+            </tr>
+             <tr id="4">
+                <td>4</td>
+                <td><a href="./src/page_D.html">Page_D</a></td>
+                <td><a href="./profile-card-component-main/index.html">Profile Card</a></td>
+                <td>-</td>
+            </tr>
+             <tr id="5">
+                <td>5</td>
+                <td><a href="./src/page_E.html">Page_E</a></td>
+                <td><a href="./3-column-preview-card-component-main/index.html">3 Column Preview Card</a></td>
+                <td>-</td>
+            </tr>
+             <tr id="6">
+                <td>6</td>
+                <td><a href="./src/page_F.html">Page_F</a></td>
+                <td><a href="./stats-preview-card-component-main/index.html">Stats Preview Card</a></td>
+                <td>-</td>
+            </tr>
+            <tr id="7">
+                <td>7</td>
+                <td><a href="./src/page_G.html">Page_G</a></td>
+                <td><a href="./fylo-data-storage-component-master/index.html">Fylo Data Sorage Component</a></td>
+                <td>-</td>
+            </tr>
+            <tr id="8">
+                <td>8</td>
+                <td><a href="./src/page_H.html">Page_H</a></td>
+                <td><a href="./src/nft.html">NFT Card</a></td>
+                <td>-</td>
+            </tr>
+            <tr id="9">
+                <td>9</td>
+                <td><a href="./src/page_I.html">Page_I</a></td>
+                <td><a href="./social-proof-section-master/social.html">Social Proof Section</a></td>
+                <td>-</td>
+            </tr>
+            <tr id="10">
+                <td>10</td>
+                <td><a href="./src/Survey.html">Survey</a></td>
+                <td><a href="./testimonials-grid-section-main/index.html">Testimonials grid section main</a></td>
+                <td>-</td>
+            </tr>
+            <tr id="11">
+                <td>11</td>
+                <td><a href="./src/Tribute.html">Tribute</a></td>
+                <td><a href="./single-price-grid-component-master/single.html">Single Price Grid</a></td>
+                <td>-</td>
+            </tr>
+            <tr id="12">
+                <td>12</td>
+                <td><a href="./src/child_frame.html">Child-Frame</a></td>
+                <td><a href="./four-card-feature-section-master/index.html">Four Card feature</a></td>
+                <td>-</td>
+            </tr>
+            <tr id="13">
+                <td>13</td>
+                <td><a href="./src/grand_child_frame.html">Grand-Child-Frame</a></td>
+                <td><a href="./huddle-landing-page-with-single-introductory-section-master/index.html">Huddle Single Introductory</a></td>
+                <td>-</td>
+            </tr>
+            <tr id="14">
+                <td>14</td>
+                <td><a href="./src/input_type.html">Input Type</a></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr id="15">
+                <td>15</td>
+                <td><a href="./src/Input_type_radio.html">Input Radio</a></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr id="16">
+                <td>16</td>
+                <td><a href="./src/Input_type_read_only.html">Input Read Only</a></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr id="17">
+                <td>17</td>
+                <td><a href="./src/link_a.html">Link-A</a></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr id="18">
+                <td>18</td>
+                <td><a href="./src/link_parent.html">Link Parent</a></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr id="19">
+                <td>19</td>
+                <td><a href="./src/login.html">Login</a></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <!-- <tr id="20">
+                <td>20</td>
+                <td>Product Landing Page</td>
+                
+            </tr>
+            <tr id="21">
+                <td>21</td>
+                <td>QR Code</td>
+              
+            </tr>
+            <tr id="22">
+                <td>22</td>
+                <td>Order Summary</td>
+                
+            </tr>
+            <tr id="23">
+                <td>23</td>
+                <td>Profile card</td>
+                
+            </tr> -->
+            <!-- <tr id="24">
+                <td>24</td>
+                <td></td>
+            </tr>
+            <tr id="25">
+                <td>25</td>
+                <td>Stats Previw Card</td>
+            </tr>
+            <tr id="26">
+                <td>26</td>
+                <td>Fylo Data Sorage Component</td>
+            </tr>
+            <tr id="27">
+                <td>27</td>
+                <td>Social Proof Section</td>
+            </tr>
+            <tr id="28">
+                <td>28</td>
+                <td>Testimonials grid section main</td>
+            </tr>
+            <tr id="29">
+                <td>29</td>
+                <td>NFT Card</td>
+                
+            </tr>
+            <tr id="30">
+                <td>30</td>
+                <td>Single Prce Grid</td>
+            </tr>
+            <tr id="31">
+                <td>31</td>
+                <td>Four Card feature</td>
+            </tr>
+            <tr id="32">
+                <td>32</td>
+                <td></td>
+            </tr> -->
+        </tbody>
+    </table>
   
-    <header style="text-align: center;">
-        <div class="transbox">
-        <h1>---MENU---</h1>
-        </div>
-    </header>
-    <section style="background-color:#aaa;">
-    
-
-<div class="row">
-  <div class="column">
-      <div class="transbox">
-    <h2>HTML-LESSONS</h2>
-    <p>
-       <ol>
-           <li><a href="./src/pagea.html">Pa-Intro</a></li>
-           <li> <a href="./src/pageb.html">Pb-Paragraph</a></li>
-           <li><a href="./src/pagec.html">Pc-Ul intro</a></li>
-           <li><a href="./src/paged.html">Pd-Table intro</a></li>
-           <li><a href="./src/pagee.html">Pe-Image intro</a></li>
-           <li><a href="./src/pagef.html">Pf-Vid & Iframe intro</a></li>
-           <li><a href="./src/pageg.html">Pg-Visit Page intro</a></li>
-           <li><a href="./src/pageh.html">Ph-Body intro</a></li>
-           <li><a href="./src/pagei.html">Pi-Form & Input intro</a></li>
-           <li><a href="./src/login.html">pj-Login Page intro</a></li>
-           <li><a href="./src/Tribute.html">Project1-Tribute</a></li>
-           <li><a href="./src/project2.html">Pk-Survey List</a></li>
-           <li><a href="./src/covid.html">project2-Covid19 Survey Form</a></li>
-           <li><a href="./src/link_target.html">Pl-Link Target</a></li>
-           <li><a href="./src/link_a_target.html">Pm-Link Target</a></li>
-           <li><a href="./src/input_readonly.html">Pn-Input Readonly</a></li>
-           <li><a href="./src/input_radio.html">Po-Input Radio</a></li>
-           <li><a href="./src/grand-child-frame.html">Grand-Child-Frame</a></li>
-           <li><a href="./src/child-frame.html">Child-Frame</a></li>
-           <li><a href="./src/parent.html">Parent-Frame</a></li>
-           <li><a href="./src/input-typr.html">Pq-Input Type</a></li>
-           <li><a href="./src/yemaha_r15m.html">Assignment1-Yemaha R15m</a></li>
-           <li><a href="./src/DOM_learning.html">DOM learning</a></li>
-           <li><a href="./src/DOM_a_learning.html">DOM Larning 1</a></li>
-           <li><a href="./src/form_event.html">Form Event</a></li>
-           <li><a href="./src/local_storage.html">Local Storage</a></li>
-           <li><a href="./src/semantic_elements.html">Semantic Elements</a></li>
-       </ol>
-       </p>
-      </div>
-</div>
-
-  <div class="column">
-    <div class="transbox">
-    <h2>CSS-LESSONS</h2>
-    <p>
-        <ul>
-            <li><a href="./src/csslessons/p1_inline_style.html">P1-Inline style</a></li>
-            <li><a href="./src/csslessons/p2_inline_style.html">P2-Inline Style2</a></li>
-            <li><a href="./src/csslessons/p3_body_center.html">P3-Body Centre</a></li>
-            <li><a href="./src/csslessons/p4_style.html">P4-Link Style</a></li>
-            <li><a href="./src/csslessons/p5_class.html">P5-CSS class</a></li>
-            <li><a href="./src/csslessons/p6_id_first.html">P6-ID First</a></li>
-            <li><a href="./src/csslessons/p7_selector.html">P7-CSS selector</a></li>
-            <li><a href="./src/csslessons/p8_span.html">P8-Span</a></li>
-            <li><a href="./src/csslessons/p9_psedo_element.html">P9-Psedo Element</a></li>
-            <li><a href="./src/csslessons/p10_psedo_class.html">P10-Psedo Class</a></li>
-            <li><a href="./src/csslessons/p11_formatter.html">P11-Formatter</a></li>
-            <li><a href="./src/csslessons/p12_image_repeat.html">P12-Image Repeat</a></li>
-            <li><a href="./src/csslessons/p13_nth_child.html">P13-Nth Child</a></li>
-            <li><a href="./src/csslessons/p14_visit_link.html">P14-Visit Link</a></li>
-            <li><a href="./src/csslessons/p15_gobutton.html">P15-Go Button</a></li>
-            <li><a href="./src/csslessons/p16_boxmodel.html">P16-Box Model</a></li>
-            <li><a href="./src/csslessons/p17_animation.html">P17-Animations</a></li>
-        </ul>
-        </p>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="transbox">
-    <h2>CHALLENGES</h2>
-    <p>
-        <ul>
-            <li><a href="./src/csslessons/qr_code/qr_code.html">QR Code</a></li>
-            <li><a href="./src/csslessons/order-summary-component-main/index_order_summary.html">Order Summary</a></li>
-            <li><a href="./src/csslessons/profile-card-component/profile-card.html">Profice Card</a></li>
-            <li><a href="./src/csslessons/nft-preview-card-component-main/nft-preview-card.html">nft preview card</a></li>
-            <li><a href="./src/csslessons/huddle-landing-page-with-single-introductory-section-master/hubble-landing-pade.html">Hubble Laning Pade</a></li>
-            <li><a href="./src/csslessons/clipboard-landing-page-master/clipboard-landing-page.html">Clipboard</a></li>
-            <li><a href="./src/csslessons/chat-app-css-illustration-master/chat-app.html">Chat App</a></li>
-            <li><a href="./src/csslessons/3-column-preview-card-component-main/3-column-card.html">3-Column-preview-Card</a></li>
-            <li><a href="./src/csslessons/stats-preview-card-component-main/stars-preview-card.html">Star-Preview-Card</a></li>
-            <li><a href="./src/csslessons/social-proof-section-master/social-proof-sec.html">Social-Proof-Section</a></li>
-            <li><a href="./src/csslessons/fylo-data-storage-component-master/fylo-data.html">Fylo-Data</a></li>
-            <li><a href="./src/csslessons/four-card-feature-section-master/four-card-feature.html"> Four-Cars-Feature</a></li>
-        </ul>
-    </p>
-    </div>
-  </div>
-    <div class="column">
-        <div class="transbox">
-            <h2>JAVA SCRIPT</h2>
-            <P>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </P>
-        </div>
-    </div>
-</div>
-</section>
 </body>
 </html>
