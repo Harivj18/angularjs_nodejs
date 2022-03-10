@@ -2,23 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Nunito+Sans:wght@300&family=Outfit:wght@300;400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 :root{
-    --font1:'Lexend Deca', sans-serif;
-    --font2:'Big Shoulders Display',cursive;
     --Bright-orange: hsl(31, 77%, 52%);
     --Dark-cyan: hsl(184, 100%, 22%);
-    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --font1:'Lexend Deca', sans-serif;
+    --font2:'Big Shoulders Display',cursive;
     --Transparent-white : hsla(0, 0%, 100%, 0.75);
-    --Very-light-gray : hsl(0, 0%, 95%);
-    
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Very-light-gray : hsl(0, 0%, 95%);  
 }
 
 body{
-    background-color: var(--Very-light-gray);
-    min-height: 100vh;
-    display: flex;
     align-items: center;
+    background-color: var(--Very-light-gray);
+    display: flex;
     font-size: 15px;
     font-family: var(--font1);
+    min-height: 100vh;
 }
 
 .container{
@@ -27,10 +26,10 @@ body{
 }
 
 .card{
+    border-radius: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 2rem;
-    border-radius: 15px;
     overflow: hidden;
 }
 .box{
@@ -49,11 +48,11 @@ body{
 }
 
 .box h2{
+    color: var(--Transparent-white);
     font-family: var(--font2);
-    text-transform:uppercase;
     font-size: 30px;
     font-weight: 700;
-    color: var(--Transparent-white);
+    text-transform:uppercase;
 }
 
 .box p{
@@ -62,14 +61,14 @@ body{
 }
 
 .box a{
-    text-decoration: none;
     background-color: var(--Transparent-white);
-    padding: 15px 12px;
+    border: 2px var(--Transparent-white);
     border-radius: 25px;
     display: inline-block;
     margin-top: 55px;
-    border: 2px var(--Transparent-white);
+    padding: 15px 12px;
     transition: all .3s ease-in;
+    text-decoration: none;
 }
 
 .box1 a{

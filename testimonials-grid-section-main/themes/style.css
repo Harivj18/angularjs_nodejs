@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 
 body{
-	margin: 0;
-	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Barlow Semi Condensed', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 a:link,a:active,a:visited,a:hover{
@@ -13,40 +13,40 @@ a:link,a:active,a:visited,a:hover{
 
 .outerdiv
 {
-	width: 100%;
-    min-height: 100vh;
+    align-items: center;
     background: #EDF2F8;
     display: flex;
-    align-items: center;
     justify-content: center;
+    min-height: 100vh;
+	width: 100%;
 }
 
 .innerdiv
 {
-	transform: scale(0.9);
-	margin: 1rem;
 	display: grid;
 	grid-gap: 1.5rem;
 	grid-template-rows: repeat(2,22rem);
 	grid-template-columns: repeat(4,17rem);
+	margin: 1rem;
+	transform: scale(0.9);
 }
 
 .eachdiv
 {
-	padding: 1rem 2rem;
     border-radius: 0.8rem;
     box-shadow: 5px 5px 20px #6d6b6b6b;
     color: white;
+	padding: 1rem 2rem;
 }
 
 .div1
 {
 	background: #733FC8;
-    grid-column: 1/3;
-    grid-row: 1/2;
     background-image: url(../images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position-x: 25rem;
+	grid-column: 1/3;
+    grid-row: 1/2;
 }
 
 .div2
@@ -59,17 +59,17 @@ a:link,a:active,a:visited,a:hover{
 .div3
 {
 	background: white;
+    color: black;
     grid-column: 4/5;
     grid-row: 1/3;
-    color: black;
 }
 
 .div4
 {
 	background: white;
+    color: black;
 	grid-column: 1/2;
     grid-row: 2/3;
-    color: black;
 }
 
 .div5
@@ -92,8 +92,8 @@ a:link,a:active,a:visited,a:hover{
 .imgbox img
 {
 	border-radius: 50%;
-	width: 2rem;
 	border: 2px solid #cec5c5;
+	width: 2rem;
 }
 
 .detbox
@@ -112,8 +112,8 @@ a:link,a:active,a:visited,a:hover{
 {
 	color: hsl(0, 0%, 81%);
     font-size: 0.9rem;
-    margin-bottom: 0.1rem;
     font-weight: 600;
+    margin-bottom: 0.1rem;
 }
 
 .detbox .name.dark
@@ -124,8 +124,8 @@ a:link,a:active,a:visited,a:hover{
 .detbox .designation
 {
 	color: hsl(0, 0%, 81%);
-    opacity: 50%;
     font-size: 0.8rem;
+    opacity: 50%;
 }
 
 .detbox .designation.dark
@@ -135,8 +135,8 @@ a:link,a:active,a:visited,a:hover{
 
 .review h4
 {
-	font-size: 1.4rem;
 	color: #F3DEFF;
+	font-size: 1.4rem;
     font-weight: 600;
     line-height: 1.5;
     margin-bottom: 0.8rem;
@@ -148,11 +148,11 @@ a:link,a:active,a:visited,a:hover{
 
 .review p
 {
-	font-size: 0.95rem;
     color: #F3DEFF;
+	font-size: 0.95rem;
     font-weight: 500;
-    opacity: 50%;
     line-height: 1.5;
+    opacity: 50%;
 }
 
 .review.dark p{
@@ -184,9 +184,9 @@ a:link,a:active,a:visited,a:hover{
 	{
 		display: flex; 
 		flex-direction: column;
-		transform: scale(1);
 		margin: 2rem;
 		margin-bottom: 5rem;
+		transform: scale(1);
 	}
 	
 }
