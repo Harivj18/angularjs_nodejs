@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 
-:root{
+:root {
     --Dark-Grayish-Blue: hsl(210, 10%, 33%);
     --font1:'Bai Jamjuree', sans-serif;
     --Grayish-Blue: hsl(201, 11%, 66%);
@@ -8,11 +8,11 @@
     --Strong-Cyan: hsl(171, 66%, 44%);
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url(../images/bg-header-desktop.png);
     background-repeat: no-repeat;
     background-position: top;
@@ -22,12 +22,12 @@ body{
     font-size: 16px;
 }
 
-h1{
+h1 {
     font-weight: bold;
     text-align: center;
 }
 
-p{
+p {
     color: var(--Grayish-Blue);
     max-width: 540px;
     margin: 0 auto;
@@ -35,13 +35,13 @@ p{
     text-align: center;
 }
 
-header{
+header {
     align-items: center;
     margin-top: 8rem ;
     text-align: center;
 }
 
-.btn{
+.btn {
     border-radius: 44px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     border: none;
@@ -52,67 +52,67 @@ header{
     width: 12rem;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: lightgreen;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: white;
     transform: translateY(-7px);
 }
 
-.btn-g{
+.btn-g {
     background-color: var(--Strong-Cyan);
 }
 
-.btn-b{
+.btn-b {
     background-color: var(--Light-Blue);
 }
 
-.content-one{
+.content-one {
     max-width: 600px;
     margin: 0 auto;
     padding: 5rem 0 5rem 0;
     text-align: center;
 }
 
-.content-two{
+.content-two {
     padding-bottom: 5rem;
     width: 100%;
 }
 
-.computer{
+.computer {
     float: left;
     width: 50%;
 }
 
-.desc h2{
+.desc h2 {
     padding-left:60%;
     width: 100%;
 }
 
-.desc p{
+.desc p {
     display: inline-flex;
     padding:0rem 0rem 5rem 8rem;
     text-align: left;
     width: 500px;
 }
 
-.clipboard h2{
+.clipboard h2 {
     font-weight: bold;
     text-align: center;
 }
 
-.clipboard p{
+.clipboard p {
     padding-bottom: 5rem;
 }
 
-.tab{
+.tab {
     margin: 0rem 19rem;
     padding-bottom: 5rem;
     text-align: center;
     width: 55%;
 }
 
-.tools{
+.tools {
     padding-bottom: 3rem;
 }
 
@@ -126,7 +126,7 @@ header{
   text-align: center;
 }
 
-.brand{
+.brand {
     column-gap: 1.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -134,7 +134,7 @@ header{
     padding-bottom: 7rem;
 }
 
-.os{
+.os {
     padding-bottom: 6rem;
     text-align: center;
 }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito+Sans:wght@300&family=Outfit:wght@300;400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Nunito+Sans:wght@300&family=Outfit:wght@300;400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
 
-:root{
+:root {
     --Bright-orange: hsl(31, 77%, 52%);
     --Dark-cyan: hsl(184, 100%, 22%);
     --font1:'Lexend Deca', sans-serif;
@@ -11,7 +11,7 @@
     --Very-light-gray : hsl(0, 0%, 95%);  
 }
 
-body{
+body {
     align-items: center;
     background-color: var(--Very-light-gray);
     display: flex;
@@ -20,34 +20,34 @@ body{
     min-height: 100vh;
 }
 
-.container{
+.container {
     max-width: 960px;
     margin: 0 auto;
 }
 
-.card{
+.card  {
     border-radius: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 2rem;
     overflow: hidden;
 }
-.box{
+.box  {
     padding: 40px;
 }
-.box1{
+.box1  {
     background-color: var(--Bright-orange);
 }
 
-.box2{
+.box2  {
     background-color: var(--Dark-cyan);
 }
 
-.box3{
+.box3  {
     background-color: var(--Very-dark-cyan);
 }
 
-.box h2{
+.box h2  {
     color: var(--Transparent-white);
     font-family: var(--font2);
     font-size: 30px;
@@ -55,12 +55,12 @@ body{
     text-transform:uppercase;
 }
 
-.box p{
+.box p {
     color: var(--Transparent-white);
     line-height: 1.6;
 }
 
-.box a{
+.box a {
     background-color: var(--Transparent-white);
     border: 2px var(--Transparent-white);
     border-radius: 25px;
@@ -71,24 +71,24 @@ body{
     text-decoration: none;
 }
 
-.box1 a{
+.box1 a {
     color: var(--Bright-orange);
 }
 
-.box2 a{
+.box2 a {
     color: var(--Dark-cyan);
 }
 
-.box3 a{
+.box3 a {
     color: var(--Very-dark-cyan);
 }
 
-.box a:hover{
+.box a:hover {
     color: var(--Transparent-white);
 }
 
-@media screen and (max-width:768px){
-    .card{
+@media screen and (max-width:768px) {
+    .card {
         grid-template-columns: 1fr;
     }
 }

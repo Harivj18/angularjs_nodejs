@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Outfit:wght@400;800&family=Red+Hat+Display:wght@500;700;900&family=Redressed&family=Roboto:ital,wght@1,900&display=swap');
 
-:root{
+:root {
     --background-color: hsl(225, 100%, 94%);
     --btn-box-shadow:5px 10px 20px hsl(245, 75%, 52%);
     --Bright-blue: hsl(245, 75%, 52%);
@@ -13,18 +13,17 @@
     --white:rgb(255,255,255);
 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html,body{
+html,body {
     overflow-x: hidden;
 }
 
-body
-{
+body {
     background-image: url(../images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -34,7 +33,7 @@ body
 
 }
 
-.order-center-container{
+.order-center-container {
     align-items: center;
     background-color: white;
     border-radius: 25px;
@@ -54,7 +53,7 @@ body
     width: 90%;
 }
 
-.order-image-container{
+.order-image-container {
     background-image: url(../images/illustration-hero.svg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -66,7 +65,7 @@ body
     width: 100%;
 }
 
-.order-title-container{
+.order-title-container {
     color: var(--Dark-blue);
     font-family: var(--main-font);
     height: 100%;
@@ -77,20 +76,20 @@ body
     width: 80%;
 }
 
-.order-title-container h1{
+.order-title-container h1 {
     font-size: 1.5rem;
     font-weight: 900;
     letter-spacing: 2px;
 }
 
-.order-title-container p{
+.order-title-container p {
     color: var(--desaturated-blue);
     font-weight: lighter;
     line-height: 25px;
     margin-top: 1.2rem;
 }
 
-.order-pricing-container{
+.order-pricing-container {
     align-content: space-between;
     align-items: center;
     border-radius: 10px;
@@ -107,7 +106,7 @@ body
     width: 70%;
 }
 
-.music-img{
+.music-img {
     background-image:url(../images/icon-music.svg) ;
     background-position: center center;
     background-repeat:no-repeat ;
@@ -116,30 +115,30 @@ body
     width: 3.5rem;
 }
 
-.order-pricing-container .annual-plan{
+.order-pricing-container .annual-plan {
     color: var(--Dark-blue);
     margin-bottom: 1rem;
 }
 
-.order-pricing-container p{
+.order-pricing-container p {
     color:hsl(224, 23%, 55%) ;
     line-height: 10px;
 }
 
-.btn-change{
+.btn-change {
     background-color: transparent;
     color: var(--bright-blue);
     font-weight: 900;
     font-size: 1rem;
 }
 
-.btn-change:hover{
+.btn-change:hover {
     cursor: pointer;
     opacity: 0.7;
     text-decoration: none;
 }
 
-.btn-payment{
+.btn-payment {
     background-color: var(--Bright-blue);
     border-radius: 15px;
     border: transparent;
@@ -155,7 +154,7 @@ body
 }
 
 
-.btn-cancel{
+.btn-cancel {
     background-color: transparent;
     border: none;
     color: var(--light-grey);
@@ -167,6 +166,6 @@ body
     text-decoration: none;
 }
 
-.btn-cancel:hover{
+.btn-cancel:hover {
     color: var(--red);
 }

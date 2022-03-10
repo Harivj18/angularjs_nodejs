@@ -1,4 +1,4 @@
-:root{
+:root {
     --color-pale-violet: hsl(276, 100%, 81%);
     --color-moderate-violet: hsl(276, 55%, 52%);
     --color-moderate-violet-a: hsla(276, 55%, 94%);
@@ -17,18 +17,18 @@
     --space-chat: 4px;
 }
 
-body{
+body {
     font-size: var(--font-size);
     font-family: 'Rubik', sans-serif;
     height: 0;
     margin: 0;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-.main{
+.main {
     background-color: var(--color-white);
     display: grid;
     min-height: 100vh;
@@ -38,7 +38,7 @@ body{
     z-index: -2;
 }
 
-.main::before{
+.main::before {
     background-image: linear-gradient(180deg, var(--color-light-magenta), var(--color-light-violet));
     border-radius: 0 0 560px 560px;
     content: '';
@@ -50,7 +50,7 @@ body{
     z-index: -1
 }
 
-.main-mobile{
+.main-mobile {
     background-color: var(--color-white-gray);
     border: 10px solid #ffffff;
     box-shadow: 5px 20px 25px var(--color-grayish-blue);
@@ -61,7 +61,7 @@ body{
     position: relative;
 }
 
-.main-mobile::after{
+.main-mobile::after {
     border-radius: 0 0 12px 12px;
     background-color: #ffffff;
     content: '';
@@ -74,7 +74,7 @@ body{
     width: 130px;
 }
 
-.user{
+.user {
     align-items: center;
     box-shadow: 0px 4px 16px var(--color-grayish-blue);
     background-image: linear-gradient(90deg, var(--color-light-violet), var(--color-light-magenta));
@@ -84,14 +84,14 @@ body{
     padding-bottom: 5px;
 }
 
-.back{
+.back {
     border: none;
     color: #ffffff;
     font-weight: 400;
     margin: 10px 7px 10px 10px;
 }
 
-.avatar{
+.avatar {
     border-radius: 500%;
     border: 2px solid #ffffff;
     height: 30px;
@@ -100,42 +100,42 @@ body{
 
 }
 
-.profile{
+.profile {
     color: #ffffff;
     margin-left: 10px;
 }
 
-.profile h5{
+.profile h5 {
     font-weight: 400;
     margin: 0px 0 2px 0;
 }
 
-.profile p{
+.profile p {
     font-weight: 400;
     font-size: .4rem;
     margin: 4px 0 0 0;
 }
-.chat-group{
+.chat-group {
     display: flex;
     flex-direction: column;
     padding-top: var(--space-chat);
     padding-bottom: var(--space-chat);
 }
 
-.chat-in{
+.chat-in {
     border-radius: 15px 15px 15px 5px;
     font-size: .45rem;
     margin: var(--space-chat);
     padding: 10px;
 }
 
-.chat-in.text{
+.chat-in.text {
     background-color: var(--color-moderate-violet-a);
     color: var(--color-moderate-violet);
     width: 60%;
 }
 
-.chat-in.automatic{
+.chat-in.automatic {
     align-content: flex-end;
     background-image: linear-gradient(90deg, var(--color-light-magenta), var(--color-light-violet));
     color: #ffffff;
@@ -146,24 +146,24 @@ body{
     width: 70%;
 }
 
-.chat-in.automatic span{
+.chat-in.automatic span {
     font-weight: 700;
     font-size: .7rem;
 }
 
-.chat-images{
+.chat-images {
     align-self: flex-end;
     margin: 0px 10px 0 0;
 }
 
-.chat-images img{
+.chat-images img {
     box-shadow: 0px 1px 6px var(--color-grayish-blue);
     border-radius: 5px;
     margin-left: 4px;
     width: 42px;
 }
 
-.chat-out{
+.chat-out {
     align-self: flex-end;
     box-shadow: 0px 1px 6px var(--color-grayish-blue);
     background-color: #ffffff;
@@ -177,13 +177,13 @@ body{
 
 }
 
-.keyboard{
+.keyboard {
     display: flex;
     justify-content: space-between;
     margin: calc(2*var(--space-chat)) var(--space-chat);
 }
 
-.keyboard input[type=text]{
+.keyboard input[type=text] {
     border-radius: 10px 0 0 10px;
     border: none;
     font-size: .7rem;
@@ -195,7 +195,7 @@ body{
     color:var(--color-grayish-blue);
   }
 
-.keyboard button{
+.keyboard button {
     border: none;
     background-color: #ffffff;
     border-radius: 0 50% 50% 0;
@@ -203,19 +203,19 @@ body{
     font-size: 1.5rem;
 }
 
-.main-text{
+.main-text {
     padding: 50px 30px;
     text-align: center;
 }
 
-.main-text-h1{
+.main-text-h1 {
     color: var(--color-very-dark-desaturated-violet);
     font-size: 2.48rem;
     font-weight: 500;
     margin-bottom: 22px;
 }
 
-.main-text-p{
+.main-text-p {
     color:var(--color-dark-grayish-violet);
     font-size: 1rem;
     line-height: 25px;
@@ -235,19 +235,19 @@ body{
         margin: auto 50px auto auto;
     }
 
-    .main-text{
+    .main-text {
         margin: auto auto auto 50px;
         text-align: left;
     }
 
-    .main::before{
+    .main::before {
         height: 100vh;
         left: -100px;
         right: 0;
         top: -120px;
     }
 
-    .main::after{
+    .main::after {
         bottom: -140px;
         background-color: var(--color-moderate-violet-aa);
         border-radius: 560px 560px 0 0;

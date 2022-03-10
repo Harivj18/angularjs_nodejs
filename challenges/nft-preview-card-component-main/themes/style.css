@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     align-items: center;
     background: hsl(217, 54%, 11%);
     display: flex;
@@ -15,30 +15,30 @@ body{
     min-height: 100vh;
 }
 
-.container{
+.container {
     max-width: 350px;
     margin: 0 auto;
 }
 
-.card{
+.card {
     background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
     margin: 2rem 1rem;
     padding: 20px;
 }
 
-.img-top{
+.img-top {
     border-radius: 12px;
     overflow: hidden;
     position: relative;
 }
 
-.img-top img{
+.img-top img {
     display: block;
     width: 100%;
 }
 
-.box-text a{
+.box-text a {
     color: #FFF;
     display: inline-block;
     font-weight: 600;
@@ -47,7 +47,7 @@ body{
     text-decoration: none;
 }
 
-.box-text a:hover{
+.box-text a:hover {
     color: hsl(178, 100%, 50%);
 }
 
@@ -55,39 +55,39 @@ p{
     color: hsl(215, 51%, 70%);
 }
 
-.contents{
+.contents {
     align-items: center;
     display: flex;
     justify-content: space-between;
     padding: 25px 0;
 }
 
-.eth,.remainder{
+.eth,.remainder {
     align-items: center;
     display: flex;
 }
 
-.eth p{
+.eth p {
     color: hsl(178, 100%, 50%);
     font-weight: 600;
     padding-left: 7px;
 }
 
-.remainder p{
+.remainder p {
     padding-left: 7px;
 }
 
-hr{
+hr {
     border-color: hsl(215, 32%, 27%);
 }
 
-.author{
+.author {
     align-items: center;
     display: flex;
     padding-top: 5px;
 }
 
-.author img{
+.author img {
     border-radius: 50%;
     border: 2px solid #FFF;
     height: 30px;
@@ -95,7 +95,7 @@ hr{
     width: 30px;
 }
 
-.author p a.name{
+.author p a.name {
     color: #FFF;
     font-size: 16px;
 }
