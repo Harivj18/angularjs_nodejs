@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    margin: 2rem 1rem;
+    padding: 20px;
+}
+
+.img-top{
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-top img{
+    display: block;
+    width: 100%;
+}
+
+.box-text a{
+    color: #FFF;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 21px;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+.box-text a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+}
+
+.contents{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.eth,.remainder{
+    align-items: center;
+    display: flex;
+}
+
+.eth p{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    padding-left: 7px;
+}
+
+.remainder p{
+    padding-left: 7px;
+}
+
+hr{
+    border-color: hsl(215, 32%, 27%);
+}
+
+.author{
+    align-items: center;
+    display: flex;
+    padding-top: 5px;
+}
+
+.author img{
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    height: 30px;
+    margin-right: 15px;
+    width: 30px;
+}
+
+.author p a.name{
+    color: #FFF;
+    font-size: 16px;
+}
+
+
+

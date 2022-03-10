@@ -5,14 +5,15 @@
     margin: 0;
     padding: 0;
 }
+
 body
 {
-    font-family: 'Outfit', sans-serif;
-    background-color: hsl(212, 45%, 89%);
-    min-height: 100vh;
-    display: flex;
     align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    font-family: 'Outfit', sans-serif;
     font-size: 15px;
+    min-height: 100vh;
 }
 
 .container{
@@ -22,15 +23,15 @@ body
 
 .qrcard{
     background-color: hsl(0, 0%, 100%);
-    padding: 18px;
     border-radius: 18px;
-    text-align: center;
     margin: 0 1em;
+    padding: 18px;
+    text-align: center;
 }
 
 .qrcard img{
-    width: 100%;
     border-radius: 15px;
+    width: 100%;
 }
 
 .content{

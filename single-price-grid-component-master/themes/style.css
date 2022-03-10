@@ -6,13 +6,12 @@
 }
 
 body {
-    font-family: 'Karla',
-        sans-serif;
-    font-size: 15px;
-    min-height: 100vh;
-    display: flex;
     align-items: center;
     background: hsl(204, 43%, 93%);
+    display: flex;
+    font-family: 'Karla',sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
 }
 
 .container {
@@ -21,13 +20,13 @@ body {
 }
 
 .wrapper {
-    display: grid;
     border-radius: 7px;
-    overflow: hidden;
     background-color: #FFF;
+    display: grid;
     grid-template-columns: 50% 50%;
     grid-template-areas: "a a""b c";
     margin: 2rem 1rem;
+    overflow: hidden;
 }
 
 .box {
@@ -39,13 +38,13 @@ body {
 }
 
 .sub {
-    grid-area: b;
     background-color: hsl(179, 62%, 43%);
+    grid-area: b;
 }
 
 .why {
-    grid-area: c;
     background-color: hsl(179, 62%, 50%);
+    grid-area: c;
 }
 
 h1 {
@@ -71,8 +70,8 @@ h2 {
 }
 
 h5 {
-    display: flex;
     align-items: center;
+    display: flex;
     padding-bottom: 10px;
 }
 
@@ -93,16 +92,16 @@ h5 span {
 }
 
 .sub a {
-    display: block;
-    text-align: center;
+    border-radius: 4px;
     background-color: hsl(71, 73%, 54%);
-    text-decoration: none;
     color: #FFF;
+    display: block;
     font-weight: 800;
     font-size: 13px;
-    padding: 12px 0;
-    border-radius: 4px;
     margin-top: 30px;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
 }
 
 .why ul {
@@ -111,6 +110,6 @@ h5 span {
 
 .why li {
     color: #FFF;
-    padding-bottom: 4px;
     font-size: 14px;
+    padding-bottom: 4px;
 }
