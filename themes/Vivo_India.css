@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Redressed&family=Roboto+Serif:ital,wght@0,400;1,100;1,500&family=Roboto:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Serif:ital,wght@1,100&family=Roboto:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Serif:ital,wght@0,400;1,100;1,500&family=Roboto:ital,wght@1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.spec h1 {
+  font-family: "Roboto", sans-serif;
+  left: 5%;
+  position: absolute;
+  top: 190%;
+}
+
+.spec .btn {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  left: 25%;
+  position: absolute;
+  top: 190%;
+}
+
+.spec h2 {
+  font-family: "Roboto", sans-serif;
+  left: 5%;
+  position: absolute;
+  top: 200%;
+}
+
+.spec ul .li1 {
+  font-size: 20px;
+  font-family: "Redressed", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+  left: 5%;
+  position: absolute;
+  top: 210%;
+}
+
+.spec ul .li2 {
+  font-size: 20px;
+  font-family: "Redressed", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+  left: 5%;
+  position: absolute;
+  top: 215%;
+}
+
+.spec ul .li3 {
+  font-size: 20px;
+  font-family: "Redressed", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+  left: 5%;
+  position: absolute;
+  top: 220%;
+}
+
+.spec ul .li4 {
+  font-size: 20px;
+  font-family: "Redressed", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+  left: 5%;
+  position: absolute;
+  top: 225%;
+}
+
+.spec ul .li5 {
+  font-size: 20px;
+  font-family: "Redressed", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+  left: 5%;
+  position: absolute;
+  top: 230%;
+}
+
+.spec ul .li6 {
+  font-size: 20px;
+  font-family: "Redressed", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+  left: 5%;
+  position: absolute;
+  top: 235%;
+}
+
+.spec ul .li7 {
+  font-size: 20px;
+  font-family: "Redressed", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+  left: 5%;
+  position: absolute;
+  top: 240%;
+}
+
+.spec .detail .unbox {
+  border-radius: 15px;
+  height: 55%;
+  left: 50%;
+  position: absolute;
+  top: 190%;
+  width: 40%;
+}
+
+.cam h1 {
+  font-family: "Redressed", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+  left: 5%;
+  position: absolute;
+  top: 255%;
+}
+
+.cam h2 {
+  font-family: "Redressed", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+  left: 5%;
+  position: absolute;
+  top: 265%;
+}
+
+.cam img {
+  border-radius: 15px;
+  height: 80%;
+  left: 11%;
+  position: absolute;
+  top: 275%;
+  width: 80%;
+}
+
+.desc h1 {
+  font-family: "Redressed", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+  left: 5%;
+  position: absolute;
+  top: 360%;
+}
+
+.desc p {
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Redressed", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+  left: 5%;
+  position: absolute;
+  top: 370%;
+}
+
+.desc .variant {
+  position: absolute;
+  left: 5%;
+  top: 385%;
+}
+
+.desc h3 {
+  font-family: "Redressed", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+  left: 20%;
+  position: absolute;
+  top: 395%;
+}
+
+.desc .pearl {
+  font-family: "Redressed", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+  left: 70%;
+  position: absolute;
+  top: 390%;
+}
+.desc .sunset {
+  height: 80%;
+  left: 5%;
+  position: absolute;
+  top: 400%;
+  width: 40%;
+}
+
+.desc .dark {
+  height: 80%;
+  left: 50%;
+  position: absolute;
+  top: 395%;
+  width: 40%;
+}
+
+.btn {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  display: inline-block;
+  font-size: 24px;
+  outline: none;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.logo {
+  width: 40%;
+}
+
+header nav ul li {
+  display: inline-block;
+  font-size: 18px;
+  margin: 15px 12px;
+}
+
+header div .material-icons {
+  display: flex;
+  margin: 15px 12px;
+}
+
+header div a {
+  text-decoration: none;
+}
+
+header nav ul li a {
+  color: rgb(33, 36, 35);
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: rgb(51, 51, 245);
+}
+
+.image {
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 5%;
+  width: 88%;
+}
+
+.vivo-india {
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  height: 80%;
+  position: absolute;
+  left: 5%;
+  top: 98%;
+  width: 88%;
+}
+
+.footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+  font-size: 18px;
+  font-family: "Redressed", cursive;
+  position: absolute;
+  top: 495%;
+  width: 100%;
+}
+
+.footer .hari {
+  float: right;
+}

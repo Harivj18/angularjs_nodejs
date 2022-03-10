@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&family=Redressed&family=Roboto:ital,wght@1,900&display=swap");
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  margin-bottom: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: hsl(217, 54%, 11%);
+  height: 65px;
+  width: 100%;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  float: left;
+  margin-left: 2%;
+  margin-top: 10px;
+  position: absolute;
+  padding: 3px;
+}
+
+ul {
+  float: right;
+  margin-top: 8px;
+  width: auto;
+}
+
+li {
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+a {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease ease-out;
+}
+
+a:hover {
+  color: orange;
+  transform: translateY(-7px);
+}
+
+.active {
+  background-color: rgb(18, 135, 236);
+  padding: 12px 17px;
+}
+
+div h1 {
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+.content-table {
+  border-collapse: collapse;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 20px black;
+  font-size: 1em;
+  min-width: 400px;
+  margin: 25px 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content-table thead tr {
+  background-color: hsl(215, 32%, 27%);
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px #dddddd;
+}
+
+.content-table tbody a {
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  text-decoration: none;
+}
+
+.content-table a:hover {
+  color: rgb(81, 164, 231);
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: antiquewhite;
+}
+.content-table tbody tr:nth-of-type(odd) {
+  background-color: white;
+}
