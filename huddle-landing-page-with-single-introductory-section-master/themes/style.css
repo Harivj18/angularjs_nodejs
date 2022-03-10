@@ -1,31 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Lexend+Deca&family=Nunito+Sans:wght@300&family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Lexend+Deca&family=Nunito+Sans:wght@300&family=Open+Sans&family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&display=swap');
 
-
 :root{
     --heading:'Poppins', sans-serif;
     --body:'Open Sans', sans-serif;
     --Violet: hsl(257, 40%, 49%);
     --Soft-Magenta: hsl(300, 69%, 71%);
-    
 }
 
 body{
-    min-height: 100vh;
-    background-image: url(images/bg-desktop.svg);
+    background-image: url(../images/bg-desktop.svg);
     background-color: var(--Violet);
+    min-height: 100vh;
     margin-left: 4rem;
     margin-top: 2rem;
-    /* overflow: hidden; */
 }
 
 .container{
-    width: 1250px;
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     gap: 2.8rem;
     margin-top: 2rem;
+    width: 1250px;
 }
 
 .info{
@@ -34,36 +30,36 @@ body{
 }
 
 .info h1{
-    font-family: var(--heading);
     color:white;
-
+    font-family: var(--heading);
 }
 
 .info p{
-    font-family: var(--body);
     color:white;
+    font-family: var(--body);
     line-height: 1.5rem;
 }
 
 .btn{
-    margin: 40px 0;
-    text-decoration: none;
     background-color: white;
-    padding: 15px 15px;
-    width: 20%;
-    text-align: center;
     border-radius: 22px;
-    font-family: var(--body);
     color: var(--Violet);
+    font-family: var(--body);
+    margin: 40px 0;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-align: center;
+    width: 20%;
 }
 
 .btn:hover{
     background-color: var(--Soft-Magenta);
     color: white;
 }
+
 .footer{
-    width: 100%;
     padding-bottom: 2rem;
+    width: 100%;
 }
 
 .social{
@@ -74,20 +70,21 @@ body{
 }
 
 .social-icon-box{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    width: 2.5rem;
-    height: 2.5rem;
     border: solid 1px #fff;
     border-radius: 50%;
-    margin: 5px;
     color: #fff;
+    display: flex;
+    height: 2.5rem;
+    justify-content: center;
+    margin: 5px;
     text-decoration: none;
+    width: 2.5rem;
 }
+
 .social-icon-box:hover{
-    color:var(--Soft-Magenta);
     border-color:var(--Soft-Magenta);
+    color:var(--Soft-Magenta);
 }
 
 .social-icon{

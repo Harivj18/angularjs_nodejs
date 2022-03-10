@@ -7,45 +7,49 @@
     --Grayish-Blue: hsl(201, 11%, 66%);
     --font1:'Bai Jamjuree', sans-serif;
 }
+
 *{
     box-sizing: border-box;
 }
+
 body{
-    font-family: var(--font1);
-    background-image: url(images/bg-header-desktop.png);
+    background-image: url(../images/bg-header-desktop.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
-    font-size: 16px;
     color: var(--Dark-Grayish-Blue);
+    font-family: var(--font1);
+    font-size: 16px;
 }
+
 h1{
     font-weight: bold;
     text-align: center;
 }
-p{
-    max-width: 540px;
-    text-align: center;
-    margin: 0 auto;
-    color: var(--Grayish-Blue);
-    padding-bottom: 4rem;
 
+p{
+    color: var(--Grayish-Blue);
+    max-width: 540px;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    text-align: center;
 }
+
 header{
     align-items: center;
-    text-align: center;
     margin-top: 10rem ;
+    text-align: center;
 }
 
 .btn{
-    width: 12rem;
-    color: white;
-    height: 3rem;
     border-radius: 44px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     border: none;
     cursor: pointer;
+    color: white;
+    height: 3rem;
     transition: all .3s ease 0s;
+    width: 12rem;
 }
 
 .btn:hover{
@@ -54,6 +58,7 @@ header{
     color: white;
     transform: translateY(-7px);
 }
+
 .btn-g{
     background-color: var(--Strong-Cyan);
 }
@@ -65,90 +70,92 @@ header{
 .content-one{
     max-width: 600px;
     margin: 0 auto;
-    text-align: center;
     padding: 5rem 0 5rem 0;
+    text-align: center;
 }
 
-.com{
-    width: 100%;
+.content-two{
     padding-bottom: 5rem;
+    width: 100%;
 }
+
 .computer{
-    width: 50%;
     float: left;
+    width: 50%;
 }
 
 .desc h2{
-    width: 100%;
     padding-left:60%;
+    width: 100%;
 }
+
 .desc p{
-    width: 500px;
     display: inline-flex;
     padding:0rem 0rem 5rem 8rem;
     text-align: left;
+    width: 500px;
 }
 
-.access h2{
+.clipboard h2{
     font-weight: bold;
     text-align: center;
 }
 
-.access p{
+.clipboard p{
     padding-bottom: 5rem;
 }
 
 .tab{
-    text-align: center;
     margin: 0rem 19rem;
-    width: 55%;
     padding-bottom: 5rem;
+    text-align: center;
+    width: 55%;
 }
 
-.workflow{
+.tools{
     padding-bottom: 3rem;
 }
 
 .card {
+  align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 0rem 10rem;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin: 0rem 10rem;
   padding-bottom: 3rem;
+  text-align: center;
 }
 
 .brand{
+    column-gap: 1.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin: 0 10rem;
-    column-gap: 1.5rem;
     padding-bottom: 7rem;
 }
 
 .os{
-    text-align: center;
     padding-bottom: 6rem;
+    text-align: center;
 }
 
 footer {
-    padding: 0 30px;
     background-color:var(--Grayish-Blue);
+    padding: 0 30px;
 }
 
 footer .foot {
-    padding-top: 3rem;
+    align-items: center;
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    align-items: center;
+    padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
 .foot .logo {
-    width: 50px;
     height: 50px;
     margin: 0 70px;
+    width: 50px;
 }
 
 .foot ul {
