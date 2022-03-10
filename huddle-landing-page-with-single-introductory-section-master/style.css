@@ -15,6 +15,7 @@ body{
     background-image: url(images/bg-desktop.svg);
     background-color: var(--Violet);
     margin-left: 4rem;
+    margin-top: 2rem;
     /* overflow: hidden; */
 }
 
@@ -56,22 +57,28 @@ body{
     color: var(--Violet);
 }
 
+.btn:hover{
+    background-color: var(--Soft-Magenta);
+    color: white;
+}
 .footer{
     width: 100%;
+    padding-bottom: 2rem;
 }
 
 .social{
     display: flex;
     margin-left: 63rem;
-    padding: 1rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
 }
 
 .social-icon-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border: solid 1px #fff;
     border-radius: 50%;
     margin: 5px;
@@ -79,9 +86,10 @@ body{
     text-decoration: none;
 }
 .social-icon-box:hover{
-    color: wheat;
+    color:var(--Soft-Magenta);
+    border-color:var(--Soft-Magenta);
 }
 
 .social-icon{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }

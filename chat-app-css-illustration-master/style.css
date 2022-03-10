@@ -50,7 +50,7 @@ body{
     z-index: -1
 }
 
-.main__mobile{
+.main-mobile{
     border: 10px solid #ffffff;
     overflow: hidden;
     border-radius: 20px;
@@ -61,7 +61,7 @@ body{
     box-shadow: 5px 20px 25px var(--color-grayish-blue);
 }
 
-.main__mobile::after{
+.main-mobile::after{
     content: '';
     position: absolute;
     border-radius: 0 0 12px 12px;
@@ -114,27 +114,27 @@ body{
     font-weight: 400;
     font-size: .4rem;
 }
-.chat__group{
+.chat-group{
     display: flex;
     flex-direction: column;
     padding-top: var(--space-chat);
     padding-bottom: var(--space-chat);
 }
 
-.chat__in{
+.chat-in{
     border-radius: 15px 15px 15px 5px;
     font-size: .45rem;
     padding: 10px;
     margin: var(--space-chat);
 }
 
-.chat__in.text{
+.chat-in.text{
     background-color: var(--color-moderate-violet-a);
     color: var(--color-moderate-violet);
     width: 60%;
 }
 
-.chat__in.automatic{
+.chat-in.automatic{
     display: flex;
     justify-content: space-between;
     background-image: linear-gradient(90deg, var(--color-light-magenta), var(--color-light-violet));
@@ -145,24 +145,24 @@ body{
     font-weight: 400;
 }
 
-.chat__in.automatic span{
+.chat-in.automatic span{
     font-weight: 700;
     font-size: .7rem;
 }
 
-.chat_images{
+.chat-images{
     align-self: flex-end;
     margin: 0px 10px 0 0;
 }
 
-.chat_images img{
+.chat-images img{
     width: 42px;
     margin-left: 4px;
     box-shadow: 0px 1px 6px var(--color-grayish-blue);
     border-radius: 5px;
 }
 
-.chat__out{
+.chat-out{
     background-color: #ffffff;
     border-radius: 15px 15px 5px 15px;
     font-size: .45rem;
@@ -201,19 +201,19 @@ body{
     font-size: 1.5rem;
 }
 
-.main__text{
+.main-text{
     padding: 50px 30px;
     text-align: center;
 }
 
-.main__text__h1{
+.main-text-h1{
     font-size: 2.48rem;
     font-weight: 500;
     color: var(--color-very-dark-desaturated-violet);
     margin-bottom: 22px;
 }
 
-.main__text__p{
+.main-text-p{
     color:var(--color-dark-grayish-violet);
     max-width: 450px;
     margin: auto;
@@ -229,11 +229,11 @@ body{
         padding-top: 0;
     }
 
-    .main__mobile {
+    .main-mobile {
         margin: auto 50px auto auto;
     }
 
-    .main__text{
+    .main-text{
         text-align: left;
         margin: auto auto auto 50px;
     }
