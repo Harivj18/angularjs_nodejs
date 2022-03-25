@@ -141,27 +141,3 @@ a:link,a:active,a:visited,a:hover {
 }
 
 
-
-@media only screen and (max-width: 1000px) {
-	.innerdiv {
-		transform: scale(0.7);
-	}
-}
-@media only screen and (max-width: 800px) {
-	.innerdiv {
-		transform: scale(0.6);
-	}
-}
-@media only screen and (max-width: 600px) {
-	.div1 {
-		background-position-x: 10rem;
-	}
-	.innerdiv {
-		display: flex; 
-		flex-direction: column;
-		margin: 2rem;
-		margin-bottom: 5rem;
-		transform: scale(1);
-	}
-	
-}
